@@ -1,0 +1,4 @@
+test1 string split       method
+test2 string tokenizer   method
+test3+string+tokenizer+++method
+end of testing data
