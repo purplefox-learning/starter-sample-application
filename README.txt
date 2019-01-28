@@ -1,4 +1,4 @@
-This sample application is the minimum set to get an java application started
+This sample application is the minimum set to develop an java application
 
 to compile-test, run "gradle test"
 to compile-test-build, run "gradle build"

@@ -1,8 +1,12 @@
-group = artifactGroup
-version = artifactVersion
 
 apply plugin: 'java'
 apply plugin: 'application'
+
+group = artifactGroup
+version = artifactVersion
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 //standard source sets
 sourceSets {
@@ -18,8 +22,6 @@ sourceSets {
     }
 }
 
-sourceCompatibility = 1.8
-
 repositories {
     mavenLocal()
     mavenCentral()
@@ -28,7 +30,7 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testImplementation('junit:junit:4.12')
 }
 
 test {
