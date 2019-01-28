@@ -44,7 +44,7 @@ public class Application {
             while (scanner.hasNext()) {
                 System.out.println(scanner.nextLine());
             }
-            
+
         } catch (Exception e) {
             //for now we ignore all exceptions
             e.printStackTrace();
