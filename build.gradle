@@ -39,4 +39,4 @@ test {
     }
 }
 
-mainClassName = "com.ycm.Application"
+mainClassName = 'com.ycm.Application'
